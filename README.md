@@ -1,7 +1,7 @@
 # operatingSystems
 
 
-# Project1 for course CEN 232 - Operating Systems
+# CEN 232 - Operating Systems - Project
 
 This project is for implementing C in shell.
 
@@ -35,12 +35,12 @@ and from then, we can directly read the current time from user mode (as software
 
 The system call provides the operating system's services to user programs via the Application Program Interface (API).  It acts as a link between a process and the operating system, allowing user-level programs to request operating system services. The only way into the kernel system is through system calls.
 
-Types of system calls:
-Process control: fork(), exit()
-File manipulation: open(), read(), write()
-Device manipulation: read(), write(), ioctl()
-Information maintenance: getpid(), alarm(), sleep()
-Communication: pipe(), shmget()
+#### Types of system calls:
+#### Process control: fork(), exit()
+#### File manipulation: open(), read(), write()
+#### Device manipulation: read(), write(), ioctl()
+#### Information maintenance: getpid(), alarm(), sleep()
+#### Communication: pipe(), shmget()
 
 ## Challenges
 We've run into a few syntax issues as a result of the project's complexity. The majority of the problems were typographic in nature (forgeting ;, mispelling variables, etc.). We also had an issue with implicit function declaration, which we solved by declaring the function at the top of the file or adding appropriate imports. Another challenge for us was locating the best possible resources to enable us to carry out all of the tasks that were assigned to us, which we tried to accomplish.
